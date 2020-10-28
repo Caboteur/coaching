@@ -3,3 +3,248 @@
 @tailwind components;
 /*! purgecss end ignore */
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.body{
+  font-family: 'Poppins', sans-serif;
+  background: #FAF4F1;
+}
+
+.main{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.Title{
+  font-family: 'Mrs Saint Delafield', cursive;
+  margin-left: 1em;
+}
+
+.blockPostIntro h1{
+  position: relative;
+}
+.blockPostIntro h1::after{
+  content: '';
+position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.8em;
+    background: #ffd0d0;
+    z-index: -1;
+    opacity: 0.8;
+    transition: transform .3s;
+}
+
+.blockProfil{
+  background: #14297a;
+}
+
+.blockIntro{
+margin-left: 3%;
+margin-right: 3%;
+  background-size: cover;
+    height: 33em;
+}
+
+.blockPostIntro{
+  padding: 7em;
+      max-width: 800px;
+      margin: auto;
+}
+
+.blockPostIntro p{
+font-family: 'Jost', sans-serif;
+color: #16297a;
+max-width: 500px;
+margin: auto;
+text-align: left;
+font-weight: 800;
+    font-size: 20px;
+}
+
+.blockProfil img{
+  max-width: 371px;
+      display: block;
+      margin: auto;
+      position: relative;
+      box-shadow: 0px 0px 0px 20px rgb(255, 255, 255);
+          bottom: -201px;
+}
+
+.blockProfil img::before{
+  content: "Regardez cette boite orange.";
+background-color: #FFBA10;
+border-color: black;
+border-style: dotted;
+}
+
+.present-follow{
+  background: white;
+  padding: 7em;
+    color: black;
+    margin: auto;
+    text-align: left;
+}
+
+
+
+.present-follow p{
+  margin: auto;
+    max-width: 800px;
+    color: #ff9ea1;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+
+
+.blockProfil div:nth-child(1) {
+background-size: cover;
+    background-position-x: 49px;
+}
+
+.blockProfil div:nth-child(2) {
+  font-family: 'Poppins', sans-serif;
+      color: white;
+      padding: 7%;
+      text-align: right;
+      color: #ffffff;
+      margin: auto;
+      text-align: left;
+      font-weight: 800;
+      font-size: 20px;
+}
+
+
+.Header{
+  height: 3.5em;
+  background: white;
+}
+
+.present{
+  background: red;
+  width: 50%;
+  display: inline-block;
+}
+
+.container-card{
+height: auto;
+background: #13287a;
+padding-top: 3em;
+}
+
+.container-card h1{
+  color: #ff9ea1;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.container-flex{
+max-width: 90%;
+margin: auto;
+}
+
+.carré{
+  height: 13em;
+  margin: auto;
+  padding: 2%;
+color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 3em;
+  margin: 10px;
+  margin: a;
+background: #3F51B5;
+      font-family: 'Jost', sans-serif;
+      font-weight: 800;
+      line-height: 39px;
+      width: 13em;
+      white-space: pre-line;
+
+}
+
+.contact__wrap{
+  text-align: center;
+  padding-bottom: 50px;
+  transform: translateY(10%);
+}
+h1{
+  font-family: 'Nunito', sans-serif;
+  font-size: 2em;
+  margin-bottom: 50px;
+  color: #0a2075;
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ff9ea1;
+}
+.contact__form input{
+    height: 35px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    transition: .2s;
+}
+.contact__form input:hover{
+    border: 2px solid #ff8080;
+}
+
+.contact__form input::placeholder{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.contact__form textarea{
+    height: 150px;
+    resize: none;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.contact__form textarea::placeholder{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.contact__form textarea:hover{
+     border: 2px solid #ff8080;
+}
+.contact__form input[type="submit"]{
+    height: 40px;
+    font-size: 14px;
+    color: #fff;
+    background: #11287a;
+    text-transform: uppercase;
+    width: 50%;
+    transition: .2s;
+}
+.contact__form input[type="submit"]:hover{
+    font-size: 16px;
+    border: 0;
+}
+*:focus{
+  outline: #ff8080 auto 1px;
+}
+
+
+
+.fa-instagram{
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  font-size: 38px;
+}
+
+.fa-instagram:hover{
+  font-size: 42px;
+  color: #ff8080;
+  transition: all .1s linear;
+  cursor: pointer;
+}

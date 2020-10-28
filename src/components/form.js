@@ -1,39 +1,29 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-import Header from "./header";
 
 
-function Layout({ children }) {
+function Form() {
+    const [inputs, setInputs] = React.useState({name: '', email: '', message: ''});
 
-  const [inputs, setInputs] = React.useState({name: '', email: '', message: ''});
+    const handleInputChange = (e) => {
+        e.persist();
+        setInputs(inputs => ({...inputs, [e.target.name]: e.target.value}));
+    }
 
-  const handleInputChange = (e) => {
-      e.persist();
-      setInputs(inputs => ({...inputs, [e.target.name]: e.target.value}));
-  }
-
-  const sendMessage = (e) => {
-      if (e) e.preventDefault();
-      const message = inputs.message;
-      const messageEnter = message.replace(/\r\n|\r|\n/g,"%0D%0A").replace(' ',"%20");
-      const request = "mailto:YOUREMAIL?subject=Email%20from%20"
-          +inputs.name+"/"
-          +inputs.email+"&body="
-          +messageEnter;
-      document.location = request;
-  }
-
-  return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900">
-      <Header />
-
-      <main className="Main">
-        {children}
-      </main>
-
+    const sendMessage = (e) => {
+        if (e) e.preventDefault();
+        const message = inputs.message;
+        const messageEnter = message.replace(/\r\n|\r|\n/g,"%0D%0A").replace(' ',"%20");
+        const request = "mailto:YOUREMAIL?subject=Email%20from%20"
+            +inputs.name+"/"
+            +inputs.email+"&body="
+            +messageEnter;
+        document.location = request;
+    }
+    return (
       <div className="contact__wrap">
-        <h1>React    hooks Contact Form</h1>
+        <h1>Me contacter</h1>
         <form
           onSubmit={e=>sendMessage(e)}
           className="contact__form">
@@ -66,13 +56,7 @@ function Layout({ children }) {
               value="send message"/>
         </form>
       </div>
-
-    </div>
-  );
+    )
 }
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
-
-export default Layout;
+export default Form;
