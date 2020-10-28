@@ -86,12 +86,12 @@ function IndexPage() {
 
           <div className="container-flex flex flex-wrap">
 
-            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré">CONSTRUIRE SON EQUIPE</div></div>
-            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré">DEVELOPPER LE POTENTIEL COLLABORATIF : ATELIERS DE CO-DéVELOPPEMENT</div></div>
-            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré">EFFICACITE DE GROUPE</div></div>
-            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré">PREVISION ET GESTION DES CONFLITS</div></div>
-            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré">AMELIORATION DES PERFORMANCES GLOBALES DE LORGANISATION</div></div>
-            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré">REUSSIR SON PROJET PRO</div></div>
+            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré2">CONSTRUIRE SON EQUIPE</div></div>
+            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré2">DEVELOPPER LE POTENTIEL COLLABORATIF : ATELIERS DE CO-DéVELOPPEMENT</div></div>
+            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré2">EFFICACITE DE GROUPE</div></div>
+            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré2">PREVISION ET GESTION DES CONFLITS</div></div>
+            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré2">AMELIORATION DES PERFORMANCES GLOBALES DE LORGANISATION</div></div>
+            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré2">REUSSIR SON PROJET PRO</div></div>
 
           </div>
 

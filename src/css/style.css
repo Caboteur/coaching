@@ -14,11 +14,19 @@
 .body{
   font-family: 'Poppins', sans-serif;
   background: #FAF4F1;
+
+}
+
+#___gatsby{
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .main{
   margin-right: 20px;
   margin-left: 20px;
+  margin-left: 15px;
+    margin-right: 15px;
 }
 
 .Title{
@@ -47,9 +55,7 @@ position: absolute;
 }
 
 .blockIntro{
-margin-left: 3%;
-margin-right: 3%;
-  background-size: cover;
+    background-size: cover;
     height: 33em;
 }
 
@@ -100,7 +106,7 @@ border-style: dotted;
     max-width: 800px;
     color: #ff9ea1;
     font-weight: 800;
-    font-size: 26px;
+    font-size: 21px;
 }
 
 
@@ -169,10 +175,32 @@ background: #3F51B5;
 
 }
 
+
+.carré2{
+  height: 13em;
+  margin: auto;
+  padding: 2%;
+color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 3em;
+  margin: 10px;
+  margin: a;
+background: #3F51B5;
+      font-family: 'Jost', sans-serif;
+      font-weight: 800;
+      line-height: 39px;
+      width: 18em;
+      white-space: pre-line;
+
+}
+
+
 .contact__wrap{
   text-align: center;
   padding-bottom: 50px;
   transform: translateY(10%);
+  background: #ff9ea1;
+    margin-top: -47px;
 }
 h1{
   font-family: 'Nunito', sans-serif;
