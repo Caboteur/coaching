@@ -33,7 +33,7 @@ function Layout({ children }) {
       </main>
 
       <div className="contact__wrap">
-        <h1>React    hooks Contact Form</h1>
+        <h1>Me contacter</h1>
         <form
           onSubmit={e=>sendMessage(e)}
           className="contact__form">

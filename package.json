@@ -4,6 +4,7 @@
   "version": "4.0.0",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "gatsby": "2.24.72",
     "gatsby-plugin-manifest": "2.4.34",
     "gatsby-plugin-offline": "3.2.31",
@@ -11,9 +12,14 @@
     "gatsby-plugin-react-helmet": "3.3.13",
     "gatsby-plugin-sharp": "2.6.39",
     "prop-types": "15.7.2",
+    "pure-react-carousel": "^1.27.6",
     "react": "16.13.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "16.13.1",
-    "react-helmet": "6.1.0"
+    "react-helmet": "6.1.0",
+    "react-responsive-carousel": "^3.2.10",
+    "react-slideshow-image": "^3.3.0"
   },
   "keywords": [
     "gatsby",

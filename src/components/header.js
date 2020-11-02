@@ -7,18 +7,23 @@ function Header() {
 
   return (
     <header className="Header">
-      <div >
-        <Link to="/">
-          <h1 >
 
-            <span className="Title">
-             Théophile Lafage
-            </span>
-          </h1>
+    <div className="Title">
+    <Link to="/event">
+        Théophile Lafage
+    </Link>
+     </div>
+        <div className="onglet">
+        <Link to="/event">
+            Evenements
         </Link>
+        </div>
+        <div className="onglet">
+        <Link to="/">
+             Coaching
+        </Link>
+            </div>
 
-
-      </div>
     </header>
   );
 }

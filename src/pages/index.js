@@ -67,11 +67,11 @@ function IndexPage() {
 
           <div className="container-flex flex flex-wrap">
 
-            <div className="w-full   xl:w-1/5 mb-4"><div className="carré">ACCOMPAGEMENT AU CHANGEMENT</div></div>
-            <div className="w-full  xl:w-1/5 mb-4"><div className="carré">PRISE DE POSTE, CHANGEMENT DE POSTE</div></div>
-            <div className="w-full   xl:w-1/5 mb-4"><div className="carré">PREPARATION DENTRETIEN PROFESSIONNEL</div></div>
-            <div className="w-full   xl:w-1/5 mb-4"><div className="carré">EFFICACITE PERSONNELLE</div></div>
-            <div className="w-full  xl:w-1/5 mb-4"><div className="carré">INTERVENTION EN SITUATION COMPLEXE ET DE ...</div></div>
+            <div className="w-full   xl:w-1/5 mb-4"><div className="carré"><p>ACCOMPAGEMENT AU CHANGEMENT</p></div></div>
+            <div className="w-full  xl:w-1/5 mb-4"><div className="carré"><p>PRISE DE POSTE, CHANGEMENT DE POSTE</p></div></div>
+            <div className="w-full   xl:w-1/5 mb-4"><div className="carré"><p>PREPARATION DENTRETIEN PROFESSIONNEL</p></div></div>
+            <div className="w-full   xl:w-1/5 mb-4"><div className="carré"><p>EFFICACITE PERSONNELLE</p></div></div>
+            <div className="w-full  xl:w-1/5 mb-4"><div className="carré"><p>INTERVENTION EN SITUATION COMPLEXE ET DE ...</p></div></div>
           </div>
 
 
@@ -86,12 +86,12 @@ function IndexPage() {
 
           <div className="container-flex flex flex-wrap">
 
-            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré2">CONSTRUIRE SON EQUIPE</div></div>
-            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré2">DEVELOPPER LE POTENTIEL COLLABORATIF : ATELIERS DE CO-DéVELOPPEMENT</div></div>
-            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré2">EFFICACITE DE GROUPE</div></div>
-            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré2">PREVISION ET GESTION DES CONFLITS</div></div>
-            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré2">AMELIORATION DES PERFORMANCES GLOBALES DE LORGANISATION</div></div>
-            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré2">REUSSIR SON PROJET PRO</div></div>
+            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré2"><p>CONSTRUIRE SON EQUIPE</p></div></div>
+            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré2"><p>DEVELOPPER LE POTENTIEL COLLABORATIF : ATELIERS DE CO-DéVELOPPEMENT</p></div></div>
+            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré2"><p>EFFICACITE DE GROUPE</p></div></div>
+            <div className="w-full   xl:w-1/3 mb-4 "><div className="carré2"><p>PREVISION ET GESTION DES CONFLITS</p></div></div>
+            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré2"><p>AMELIORATION DES PERFORMANCES GLOBALES DE LORGANISATION</p></div></div>
+            <div className="w-full  xl:w-1/3 mb-4 "><div className="carré2"><p>REUSSIR SON PROJET PRO</p></div></div>
 
           </div>
 

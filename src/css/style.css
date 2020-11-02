@@ -17,6 +17,21 @@
 
 }
 
+.onglet{
+  display: inline-block;
+  float: right;
+  font-family: 'Jost', sans-serif;
+color: #16297a;
+font-weight: 800;
+font-size: 20px;
+padding: 1em;
+}
+
+.onglet:hover{
+  background: #ffd9da;
+  color: white;
+}
+
 #___gatsby{
   margin-left: 15px;
   margin-right: 15px;
@@ -30,12 +45,23 @@
 }
 
 .Title{
-  font-family: 'Mrs Saint Delafield', cursive;
-  margin-left: 1em;
+  float: left;
+  background: #ffffff;
+  color: #11287a;
+  display: inline-block;
+  font-family: 'Jost', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 1em;
 }
 
 .blockPostIntro h1{
   position: relative;
+  color:#13287a;
+  padding-top: 10px;
+  font-weight: 800;
+    font-size: 32px;
+    font-family: 'Jost', sans-serif;
 }
 .blockPostIntro h1::after{
   content: '';
@@ -57,6 +83,7 @@ position: absolute;
 .blockIntro{
     background-size: cover;
     height: 33em;
+    margin-top: 25px;
 }
 
 .blockPostIntro{
@@ -64,6 +91,7 @@ position: absolute;
       max-width: 800px;
       margin: auto;
 }
+
 
 .blockPostIntro p{
 font-family: 'Jost', sans-serif;
@@ -130,8 +158,9 @@ background-size: cover;
 
 
 .Header{
-  height: 3.5em;
+  height: auto;
   background: white;
+  border-bottom: 1px solid #14297a;
 }
 
 .present{
@@ -144,12 +173,15 @@ background-size: cover;
 height: auto;
 background: #13287a;
 padding-top: 3em;
+padding-bottom: 5em;
 }
 
 .container-card h1{
   color: #ff9ea1;
   font-weight: 800;
   font-size: 30px;
+  font-family: 'Jost', sans-serif;
+    padding-bottom: 2em;
 }
 
 .container-flex{
@@ -169,10 +201,17 @@ color: #ffffff;
 background: #3F51B5;
       font-family: 'Jost', sans-serif;
       font-weight: 800;
-      line-height: 39px;
+      margin: auto;
       width: 13em;
       white-space: pre-line;
 
+}
+
+.carré p{
+  justify-content: center;
+align-items: center;
+display: grid;
+height: 100%;
 }
 
 
@@ -188,25 +227,34 @@ color: #ffffff;
 background: #3F51B5;
       font-family: 'Jost', sans-serif;
       font-weight: 800;
-      line-height: 39px;
+
       width: 18em;
       white-space: pre-line;
-
+      margin: auto;
 }
 
+.carré2 p{
+  justify-content: center;
+align-items: center;
+display: grid;
+height: 100%;
+}
 
 .contact__wrap{
   text-align: center;
   padding-bottom: 50px;
   transform: translateY(10%);
-  background: #ff9ea1;
+  background: #3e51b5;
     margin-top: -47px;
+      margin-bottom: 15px;
 }
-h1{
-  font-family: 'Nunito', sans-serif;
-  font-size: 2em;
+.contact__wrap h1{
+  padding-top: 10px;
+  font-weight: 800;
+    font-size: 32px;
+    font-family: 'Jost', sans-serif;
   margin-bottom: 50px;
-  color: #0a2075;
+  color: white;
 }
 .contact__form{
     display: flex;
@@ -214,7 +262,6 @@ h1{
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-    background: #ff9ea1;
 }
 .contact__form input{
     height: 35px;
@@ -275,4 +322,56 @@ h1{
   color: #ff8080;
   transition: all .1s linear;
   cursor: pointer;
+}
+
+.awssld{
+  width: 50% !important;
+height: 800px !important;
+margin: auto !important;
+padding-top: 4em!important;
+padding-bottom: 4em!important;
+}
+
+.awssld__controls__arrow-left:before, .awssld__controls__arrow-right:before{
+  background: white;
+}
+
+.awssld__controls__arrow-left:before, .awssld__controls__arrow-right:after{
+  background: white;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .blockPostIntro{
+    padding: 1em;
+  }
+
+  .blockProfil img {
+    bottom: 0px;
+    width: 100%;
+}
+
+.present-follow {
+  padding: 1em;
+}
+
+.blockProfil div:nth-child(2) {
+    padding: 14%;
+  }
+
+.container-card h1{
+      font-family: 'Jost', sans-serif;
+}
+
+.contact__wrap h1{
+  padding-top: 10px;
+  font-weight: 800;
+    font-size: 32px;
+    font-family: 'Jost', sans-serif;
+}
+.contact__form {
+  width: 80%;
+}
+
 }
