@@ -35,6 +35,7 @@ function Layout({ children }) {
       <div className="contact__wrap">
         <h1>Me contacter</h1>
         <form
+        name="contact" method="POST" data-netlify="true"
           onSubmit={e=>sendMessage(e)}
           className="contact__form">
             <input

@@ -347,6 +347,10 @@ padding-bottom: 4em!important;
     padding: 1em;
   }
 
+  .blockPostIntro p{
+    margin-top: 2em;
+  }
+
   .blockProfil img {
     bottom: 0px;
     width: 100%;
@@ -372,6 +376,15 @@ padding-bottom: 4em!important;
 }
 .contact__form {
   width: 80%;
+}
+
+.Title{
+  font-size: 13px;
+
+}
+
+.onglet{
+  font-size: 13px;
 }
 
 }
