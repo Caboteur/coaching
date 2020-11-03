@@ -1,62 +1,60 @@
-import PropTypes from "prop-types";
 import React from "react";
 
 
 
-function Form() {
-    const [inputs, setInputs] = React.useState({name: '', email: '', message: ''});
 
-    const handleInputChange = (e) => {
-        e.persist();
-        setInputs(inputs => ({...inputs, [e.target.name]: e.target.value}));
-    }
+class Form extends React.Component {
+  constructor(props) {
+    super(props);
+    this.submitForm = this.submitForm.bind(this);
+    this.state = {
+      status: ""
+    };
+  }
 
-    const sendMessage = (e) => {
-        if (e) e.preventDefault();
-        const message = inputs.message;
-        const messageEnter = message.replace(/\r\n|\r|\n/g,"%0D%0A").replace(' ',"%20");
-        const request = "mailto:YOUREMAIL?subject=Email%20from%20"
-            +inputs.name+"/"
-            +inputs.email+"&body="
-            +messageEnter;
-        document.location = request;
-    }
-    return (
+  render() {
+    const { status } = this.state;
+     return (
+
+
       <div className="contact__wrap">
         <h1>Me contacter</h1>
         <form
-          onSubmit={e=>sendMessage(e)}
-          className="contact__form">
-            <input
-              value={inputs.name}
-              onChange={e=>handleInputChange(e)}
-              type="text" name="name"
-              placeholder="name"
-              title="Your name"
-              maxLength="50"
-              required/>
-            <input
-              value={inputs.email}
-              onChange={e=>handleInputChange(e)}
-              type="email" name="email"
-              placeholder="email"
-              title="Your email"
-              maxLength="50"
-              required/>
-            <textarea
-              value={inputs.message}
-              onChange={e=>handleInputChange(e)}
-              type="text" name="message"
-              placeholder="message"
-              title="Your message"
-              maxLength="550"
-              required/>
-            <input
-              type="submit"
-              value="send message"/>
+          onSubmit={this.submitForm}
+          action="https://formspree.io/f/xeqpkrbv"
+          method="POST"
+          className="contact__form"
+        >
+
+          <input type="email" name="email" placeholder="Email" />
+          <textarea  type="text" name="message" placeholder="Message" className="mess" maxLength="550" required=""/>
+          {status === "SUCCESS" ? <p>Merci!</p> : <button className="sendbtn">Envoyer</button>}
+          {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
       </div>
-    )
+
+  );
 }
+submitForm(ev) {
+  ev.preventDefault();
+  const form = ev.target;
+  const data = new FormData(form);
+  const xhr = new XMLHttpRequest();
+  xhr.open(form.method, form.action);
+  xhr.setRequestHeader("Accept", "application/json");
+  xhr.onreadystatechange = () => {
+    if (xhr.readyState !== XMLHttpRequest.DONE) return;
+    if (xhr.status === 200) {
+      form.reset();
+      this.setState({ status: "SUCCESS" });
+    } else {
+      this.setState({ status: "ERROR" });
+    }
+  };
+  xhr.send(data);
+}
+}
+
+
 
 export default Form;
