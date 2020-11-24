@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 
+
 function Header() {
 
 
@@ -9,20 +10,37 @@ function Header() {
     <header className="Header">
 
     <div className="Title">
-    <Link to="/event">
-        Théophile Lafage
+    <Link to="/">
+        Cabinet BL Conseil
     </Link>
      </div>
-        <div className="onglet">
+
+          <Link to="/contact">
+              <div className="onglet">
+              Contact
+              </div>
+          </Link>
+
+
+          <Link to="/about">
+              <div className="onglet">
+               A propos
+                   </div>
+          </Link>
+
         <Link to="/event">
-            Evenements
+          <div className="onglet">
+            Ateliers
+          </div>
+
         </Link>
-        </div>
-        <div className="onglet">
-        <Link to="/">
-             Coaching
+        <Link to="/nosprestations">
+          <div className="onglet">
+
+             Nos prestations
+           </div>
+
         </Link>
-            </div>
 
     </header>
   );

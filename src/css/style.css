@@ -55,52 +55,125 @@ padding: 1em;
   padding: 1em;
 }
 
-.blockPostIntro h1{
-  position: relative;
-  color:#13287a;
-  padding-top: 10px;
-  font-weight: 800;
-    font-size: 32px;
-    font-family: 'Jost', sans-serif;
-}
-.blockPostIntro h1::after{
-  content: '';
-position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 0.8em;
-    background: #ffd0d0;
-    z-index: -1;
-    opacity: 0.8;
-    transition: transform .3s;
+.titlePhrase{
+  color: white;
+font-family: 'Jost', sans-serif;
+font-size: 2em;
+padding: 2em;
+padding-top: 19%;
 }
 
-.blockProfil{
-  background: #14297a;
+.blockPostIntro h1{
+  position: relative;
+      color: #3e51b5;
+      /* padding-top: 10px; */
+      font-weight: 800;
+      font-size: 32px;
+      font-family: 'Jost', sans-serif;
+      margin: auto;
+      padding: 1em;
+      text-align: center;
 }
+
+
 
 .blockIntro{
     background-size: cover;
+    background-position-y: center;
     height: 33em;
     margin-top: 25px;
 }
 
-.blockPostIntro{
-  padding: 7em;
-      max-width: 800px;
+
+.blockPrestIntro{;
+      max-width: 1000px;
       margin: auto;
+}
+
+.blockPrestIntro h1{
+  position: relative;
+  color:#f15a79;
+  padding-top: 10px;
+  font-weight: 800;
+    font-size: 32px;
+    font-family: 'Jost', sans-serif;
+    padding: 2em;
+}
+
+.blockPrestIntro p{;
+  font-family: 'Jost', sans-serif;
+  color: #16297a;
+  margin: auto;
+  text-align: left;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.paraP{
+  padding: 5em;
+}
+
+.paraP1 h1{
+  color: #3f50b5;
+}
+
+.paraP1 p{
+  padding: 2em;
+  color: white;
+  background: #3e51b5;
+  font-weight: 500;
+}
+
+.paraP h1{
+  float: left;
+}
+
+
+.paraP2{
+    background: #ffd9da;
+}
+
+.paraP2 p{
+      background: #ffd9da;
+  padding: 4em;
+  color: #16297a;
+  font-weight: 500;
+  padding-top: 0;
+}
+
+.separation{
+  height: 4px;
+    width: 30%;
+    background: #f15a78;
+}
+
+.separationBlue{
+  height: 4px;
+width: 6em;
+background: #3e51b5;
+margin: auto;
+}
+
+.blockPostIntro{
+  font-family: 'Jost', sans-serif;
+      color: #16297a;
+      margin: auto;
+      text-align: left;
+      font-weight: 800;
+      font-size: 20px;
+      max-width: 800px;
+      padding: 2em;
 }
 
 
 .blockPostIntro p{
 font-family: 'Jost', sans-serif;
-color: #16297a;
-max-width: 500px;
+color: #3e51b5;
 margin: auto;
-text-align: left;
+text-align: center;
 font-weight: 800;
     font-size: 20px;
+        margin-top: 1.2em;
 }
 
 .blockProfil img{
@@ -109,8 +182,10 @@ font-weight: 800;
       margin: auto;
       position: relative;
       box-shadow: 0px 0px 0px 20px rgb(255, 255, 255);
-          bottom: -201px;
+        top: 10%;
 }
+
+
 
 .blockProfil img::before{
   content: "Regardez cette boite orange.";
@@ -154,8 +229,27 @@ background-size: cover;
       text-align: left;
       font-weight: 800;
       font-size: 20px;
+        background: #3e51b5;
 }
 
+.follow{
+  margin: auto;
+display: block;
+}
+
+.follow a{
+  background: #3f50b5;
+    margin: auto;
+    padding: 15px;
+    color: white;
+    border-radius: 6px;
+    display: block;
+    margin-top: 2em;
+}
+
+.follow a:hover{
+    background: #ffd9da;
+}
 
 .Header{
   height: auto;
@@ -188,6 +282,20 @@ padding-bottom: 5em;
 max-width: 90%;
 margin: auto;
 }
+
+
+  .aboutP{
+    color: #13287a;
+        margin: auto;
+        padding: 17%;
+        text-align: left;
+        font-weight: 800;
+        font-size: 20px;
+        background: white;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-weight: 500;
+  }
 
 .carré{
   height: 13em;
@@ -247,9 +355,10 @@ height: 100%;
   background: #3e51b5;
     margin-top: -47px;
       margin-bottom: 15px;
+          height: 86vh;
 }
 .contact__wrap h1{
-  padding-top: 10px;
+  padding-top: 50px;
   font-weight: 800;
     font-size: 32px;
     font-family: 'Jost', sans-serif;
@@ -358,6 +467,19 @@ padding-bottom: 4em!important;
   color: white;
 }
 
+.imageIcon{
+  display: block;
+  margin: auto;
+}
+
+.titleContact{
+  padding-top: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+}
+
 @media screen and (max-width: 767px) {
   .blockPostIntro{
     padding: 1em;
@@ -402,5 +524,10 @@ padding-bottom: 4em!important;
 .onglet{
   font-size: 13px;
 }
+
+
+  .aboutP{
+        padding: 2%;
+  }
 
 }

@@ -18,6 +18,8 @@ class Form extends React.Component {
 
 
       <div className="contact__wrap">
+        <p className="titleContact">Programme, devis et tarif sur demande</p>
+        <p className="titleContact">Tentez une séance découverte</p>
         <h1>Me contacter</h1>
         <form
           onSubmit={this.submitForm}

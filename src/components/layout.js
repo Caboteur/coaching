@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import Form from "./form.js"
-import Header from "./header";
+import Header from "./header.js";
 
 
 function Layout({ children }) {
@@ -15,8 +14,6 @@ function Layout({ children }) {
       <main className="Main">
         {children}
       </main>
-
-      <Form />
 
     </div>
   );
