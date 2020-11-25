@@ -11,6 +11,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jost&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+
+/* defines the animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+p {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+ }
+
+
+.mobile-menu{
+  position: absolute;
+      height: 100vh;
+      background:white;
+      z-index: 10;
+      right: 0;
+      display: inherit;
+      height: 93%;
+    bottom: 0;
+}
+
+.mobilee{
+display: none;
+}
+
+.menuDesktop{
+  display: inherit;
+}
+
+.hamburger-react{
+  float: right;
+}
 .body{
   font-family: 'Poppins', sans-serif;
   background: #FAF4F1;
@@ -520,14 +564,34 @@ padding-bottom: 4em!important;
   font-size: 13px;
 
 }
+.paraP{
+  padding: 1em;
+}
+
+.blockProfil img{
+  position: inherit;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
 .onglet{
-  font-size: 13px;
+  font-size: 25px;
+  width: 100%;
+text-align: center;
 }
 
 
   .aboutP{
         padding: 2%;
+  }
+
+  .mobilee{
+        display: inherit;
+  }
+
+
+  .menuDesktop{
+    display: none;
   }
 
 }

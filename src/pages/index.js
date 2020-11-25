@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Back from "../images/fond.jpg";
+import rond from "../images/rond.svg";
 
 function IndexPage() {
   return (
@@ -24,16 +25,16 @@ function IndexPage() {
         </div>
 
 
-        <div className="blockPostIntro">
+        <div className="blockPostIntro" style={{backgroundImage: "url(" + rond + ")", backgroundRepeat:"no-repeat"}}>
           <div className="separationBlue"></div>
 
         <h1>FAITES ÉMERGER VOTRE POTENTIEL</h1>
 
       <div className="separationBlue"></div>
 
-        <p>Vous êtes salariés, en reconversion ou en recherche d’emploi, créateurs d’entreprises, managers, ou adhérents aux organismes d’aide à l’emploi et à la réinsertion professionnelle, vous souhaitez évoluer et avez des difficultés, je vous accompagne pour que vous trouviez du sens dans votre parcours professionnel.</p>
+        <p  style={{textAlign: "left"}}>Vous êtes salariés, en reconversion ou en recherche d’emploi, créateurs d’entreprises, managers, ou adhérents aux organismes d’aide à l’emploi et à la réinsertion professionnelle, vous souhaitez évoluer et avez des difficultés, je vous accompagne pour que vous trouviez du sens dans votre parcours professionnel.</p>
 
-<p>Dans une époque où nous devons nous appuyer sur nos propres ressources pour évoluer pour s’adapter pour enrichir nos connaissances et faire face aux évènements qui jalonnent notre vie professionnelle et personnelle ; avec douceur et bienveillance je vous fais prendre conscience de ce qui vous freine, je vous amène à développer la confiance en vous et votre potentiel, puis à préciser le projet professionnel qui a du sens pour vous, qui est en harmonie avec vos valeurs et enfin à déployer avec enthousiasme votre offre de service.
+<p style={{textAlign: "right"}}>Dans une époque où nous devons nous appuyer sur nos propres ressources pour évoluer pour s’adapter pour enrichir nos connaissances et faire face aux évènements qui jalonnent notre vie professionnelle et personnelle ; avec douceur et bienveillance je vous fais prendre conscience de ce qui vous freine, je vous amène à développer la confiance en vous et votre potentiel, puis à préciser le projet professionnel qui a du sens pour vous, qui est en harmonie avec vos valeurs et enfin à déployer avec enthousiasme votre offre de service.
 </p>
 
      <button className="follow"><Link to="/nosprestations">Nos prestations</Link></button>
