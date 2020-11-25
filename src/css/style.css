@@ -279,9 +279,11 @@ background-size: cover;
 .follow{
   margin: auto;
 display: block;
+outline: none;
 }
 
 .follow a{
+  outline: none;
   background: #3f50b5;
     margin: auto;
     padding: 15px;
@@ -478,11 +480,17 @@ height: 100%;
 }
 
 .awssld{
-  width: 50% !important;
 height: 800px !important;
 margin: auto !important;
 padding-top: 4em!important;
 padding-bottom: 4em!important;
+    --content-background-color: #ffffff !important;
+        --loader-bar-color: #1d307e !important;
+}
+
+.awssld__wrapper{
+  width: 70% !important;
+    margin: auto !important;
 }
 
 .awssld__controls__arrow-left:before, .awssld__controls__arrow-right:before{
@@ -493,6 +501,17 @@ padding-bottom: 4em!important;
   background: white;
 }
 
+.awssld__content > img, .awssld__content > video{
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 310px !important;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    right: 0 !important;
+}
 .mess{
   height: 140px !important;
 }
@@ -505,6 +524,28 @@ padding-bottom: 4em!important;
     transition: .2s;
     padding: 7px;
     font-size: 16px;
+}
+
+.containerBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.containerBtn button{
+  display: inline-block;
+    margin: 1em;
+        outline: none;
+}
+
+.containerSlide p{
+  font-family: 'Jost', sans-serif;
+    color: #3e51b5;
+    margin: auto;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 1.2em;
 }
 
 .contact__wrap p{
@@ -524,7 +565,18 @@ padding-bottom: 4em!important;
     color: white;
 }
 
+.awssld__bullets .awssld__bullets--active {
+    transform: scale(1.5);
+    background: #3f50b5!important;
+}
+
 @media screen and (max-width: 767px) {
+  .awssld__wrapper{
+    width: 100% !important;
+      margin: auto !important;
+  }
+
+
   .blockPostIntro{
     padding: 1em;
   }
@@ -573,6 +625,7 @@ padding-bottom: 4em!important;
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
 
 .onglet{
   font-size: 25px;
