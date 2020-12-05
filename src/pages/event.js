@@ -38,6 +38,8 @@ btn2(){
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="About"
       />
+    <p className="TitleEvent">« Nous participons tous à la création. Nous sommes tous des rois, poètes, musiciens, ; il n’est que de s’ouvrir comme un lotus pour découvrir ce qui est en nous. »  Henry Miller</p>
+
     <div className="containerBtn">
       <button  onClick={this.btn1.bind(this)} className="follow"><a style={{background:this.state.color1}}>Café Clown</a></button>
       <button  onClick={this.btn2.bind(this)} className="follow"><a style={{background:this.state.color2}}>Atelier 2</a></button>
