@@ -23,7 +23,7 @@ class Form extends React.Component {
         <h1>Me contacter</h1>
         <form
           onSubmit={this.submitForm}
-          action="https://formspree.io/f/xeqpkrbv"
+          action="https://formspree.io/f/xyybnrgz"
           method="POST"
           className="contact__form"
         >

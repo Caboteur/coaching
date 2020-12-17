@@ -45,7 +45,7 @@ color: #3f50b5;
 margin: auto;
 text-align: center;
 font-weight: 600;
-font-size: 20px;
+font-size: 25px;
 margin-top: 1.2em;
 padding: -1em;
 margin-left: 8em;
@@ -78,6 +78,17 @@ margin-right: 8em;
 
 .mobilee{
 display: none;
+}
+
+#imgS{
+  max-width: 100%;
+    height: auto;
+    padding: 2em;
+    width: 69%;
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .menuDesktop{
@@ -533,7 +544,7 @@ height: 100%;
 
 #newEvent h2{
   font-family: 'Jost', sans-serif;
-#ffd9da
+color:#ffd9da;
   text-align: center;
   font-weight: 800;
   font-size: 30px;
@@ -677,6 +688,11 @@ padding: 0.3em;
 }
 
 @media screen and (max-width: 970px) {
+
+  .newEvent{
+    margin-bottom: 1em;
+  }
+
   .blockIntro{
     height: auto;
         min-height: 25em;
@@ -714,9 +730,20 @@ height: 10em;
   }
 
 
+.paraP2 p{
+  padding: 2em;
+}
+
   .blockPostIntro{
     padding: 1em;
   }
+
+
+
+#imgS {
+width: 90%;
+padding: 0;
+}
 
   .blockPostIntro p{
     margin-top: 2em;

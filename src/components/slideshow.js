@@ -18,8 +18,8 @@ export default class Slideshow extends React.Component {
 
 <div className="containerSlide" style={{display:this.props.eta}}>
 <div> <p>
-<h2 style={{fontWeight:"600"}}>Atelier « Café clown »</h2><br />
-Théâtre d’improvisation, clown de théâtre en coaching. <br />
+<h2 style={{fontWeight:"600"}}>Atelier « Café clown »</h2>
+<br />
 Venez nous retrouver et participer à l’atelier Café Clown, où chacun peut exprimer ses émotions, trouver son clown et sa posture de vie en étant aligné sur ses valeurs en développant sa résilience et son intégrité.
 Venez nous retrouver c’est aussi simple que de prendre un café !
 Le café c’est aussi le lieu où chacun écoute l’autre sans jugement et s’exprime à son tour en s’enrichissant du partage.<br />Objectif de l’atelier :<br />
@@ -32,14 +32,20 @@ Le café c’est aussi le lieu où chacun écoute l’autre sans jugement et s�
 </p>
 
 
-<div id="newEvent"><h2>Nouvel évenement café clown!</h2>
 
-<div><a href={`http://maps.google.com/maps?q=${this.props.lieu}`}>{this.props.lieu}</a></div>
-<div>{this.props.date}</div>
-<div>{this.props.tarif}€</div>
+  {this.props.tarif === 0 && this.props.tarif === 0 && this.props.tarif === 0
+          ? <div></div>
+          :
+          <div id="newEvent"><h2>Nouvel évenement café clown!</h2>
 
-</div>
 
+          <div><a href={`http://maps.google.com/maps?q=${this.props.lieu}`}>{this.props.lieu}</a></div>
+          <div>{this.props.date}</div>
+          <div>{this.props.tarif}€</div>
+
+          </div>
+
+        }
 
 <div className="paraP2">
 <p>

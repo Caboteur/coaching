@@ -1,5 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
+import coachingEquipe from "../images/coachingEquipe.jpeg";
+import coachingPerso from "../images/coachingPerso.jpeg";
 import SEO from "../components/seo";
 
 function EnSavoirPlus() {
@@ -59,6 +61,8 @@ Des actions alignées avec votre identité et vos valeurs.
     </p>
     </div>
 
+    <img id="imgS" src={coachingPerso} />
+
     <div className="paraP">
       <div className="separation"></div>
     <h1>Coaching individuel</h1>
@@ -75,6 +79,8 @@ Des actions alignées avec votre identité et vos valeurs.
       Un bilan est écrit par le coach à la fin des séances, il est relu pour validation par le coaché avant diffusion à sa hiérarchie.
     </p>
     </div>
+
+    <img id="imgS" src={coachingEquipe} />
 
     <div className="paraP2">
     <h1>Coaching d’équipe et atelier de co-développement</h1>

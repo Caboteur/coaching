@@ -44,7 +44,7 @@ btn2(){
 
     <div className="containerBtn">
       <button  onClick={this.btn1.bind(this)} className="follow"><a style={{background:this.state.color1}}>Café Clown</a></button>
-      <button  onClick={this.btn2.bind(this)} className="follow"><a style={{background:this.state.color2}}>Atelier 2</a></button>
+      <button  onClick={this.btn2.bind(this)} className="follow"><a style={{background:this.state.color2}}>Carrière coach</a></button>
       </div>
 
               <Slideshow lieu={this.props.lieu} date={this.props.date}  tarif={this.props.tarif} eta={this.state.display1}/>
