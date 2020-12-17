@@ -1,7 +1,7 @@
 import React from 'react';
-import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import people from "../images/people.jpg";
+import PropTypes from "prop-types";
 
 
 export default class Slideshow2 extends React.Component {
@@ -33,3 +33,8 @@ export default class Slideshow2 extends React.Component {
     );
   }
 }
+
+
+Slideshow2.propTypes = {
+eta: PropTypes.string
+};

@@ -1,6 +1,10 @@
 const resolveConfig = require("tailwindcss/resolveConfig");
 const tailwindConfig = require("./tailwind.config.js");
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
@@ -24,6 +28,14 @@ module.exports = {
         theme_color: fullConfig.theme.colors.teal["400"],
         display: `minimal-ui`,
         icon: `src/images/logs.png`,
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `e9if77w3u1xe`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: "EQBzPAJIwyYnroZ4g46yOjrGT15D0O2qm3tftBX5Em4",
       },
     },
     {

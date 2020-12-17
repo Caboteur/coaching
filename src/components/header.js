@@ -1,5 +1,5 @@
 import { Link } from "gatsby";
-import React, {Component} from "react";
+import React from "react";
 import Hamburger from 'hamburger-react'
 
 
@@ -50,9 +50,10 @@ openMenu(){
 
             <Link to="/about">
                 <div className="onglet">
-                 A propos
+                 À propos
                      </div>
             </Link>
+
 
           <Link to="/event">
             <div className="onglet">
@@ -60,6 +61,14 @@ openMenu(){
             </div>
 
           </Link>
+
+          <Link to="/ensavoirplus">
+            <div className="onglet">
+              En savoir plus
+            </div>
+
+          </Link>
+
           <Link to="/nosprestations">
             <div className="onglet">
 
@@ -67,6 +76,8 @@ openMenu(){
              </div>
 
           </Link>
+
+
           </div>
           <div className="mobilee">
           <div className="mobile-menu" style={{width:this.state.large, display:this.state.display}}>
@@ -77,6 +88,18 @@ openMenu(){
                </div>
 
             </Link>
+            <Link to="/ensavoirplus">
+              <div className="onglet">
+                En savoir plus
+              </div>
+
+            </Link>
+            <Link to="/ensavoirplus">
+              <div className="onglet">
+                En savoir plus
+              </div>
+
+            </Link>
             <Link to="/event">
               <div className="onglet">
                 Ateliers
@@ -85,7 +108,7 @@ openMenu(){
             </Link>
             <Link to="/about">
                 <div className="onglet">
-                 A propos
+                 À propos
                      </div>
             </Link>
             <Link to="/contact">
