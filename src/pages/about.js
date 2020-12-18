@@ -20,12 +20,10 @@ function AboutPage() {
         </div>
         <div className="w-full sm:w-1/1 md:w-1/2 lg:w-1/2">
 
-          <p>Ingénieur de formation et titulaire d’un MBA à l’IAE Paris Sorbonne Business School, Bernard a
-dirigé des programmes stratégiques dans des grands groupes industriels et de services, en ayant
-une approche systémique auprès des équipes c’est-à-dire en prenant en compte l’individu dans
-toute sa complexité reliant sa pensée ses émotions et son corps. L&#39;humain a toujours été au cœur
-de ses actions, sa passion c’est d’aider chacun à se réaliser, c’est pourquoi il a créé une structure
-dédiée à l’accompagnement et à la formation.</p>
+          <p>  En fonction des besoins et objectifs définis, je complète le panel des outils et méthodologies
+            d’accompagnement AT, PNL, Systémie, par les techniques et processus issus de ma pratique du
+            théâtre d’improvisation, des notions et des exercices simples et efficaces pour s’ancrer et s’aligner
+            afin de vivre la liberté et la confiance dans l’instant présent.</p>
 
 
 
@@ -40,10 +38,12 @@ dédiée à l’accompagnement et à la formation.</p>
         ce qu’il entreprend.
         </p>
         <p className="aboutP">
-        En fonction des besoins et objectifs définis, je complète le panel des outils et méthodologies
-        d’accompagnement AT, PNL, Systémie, par les techniques et processus issus de ma pratique du
-        théâtre d’improvisation, des notions et des exercices simples et efficaces pour s’ancrer et s’aligner
-        afin de vivre la liberté et la confiance dans l’instant présent.
+          Ingénieur de formation et titulaire d’un MBA à l’IAE Paris Sorbonne Business School, Bernard a
+    dirigé des programmes stratégiques dans des grands groupes industriels et de services, en ayant
+    une approche systémique auprès des équipes c’est-à-dire en prenant en compte l’individu dans
+    toute sa complexité reliant sa pensée ses émotions et son corps. L&#39;humain a toujours été au cœur
+    de ses actions, sa passion c’est d’aider chacun à se réaliser, c’est pourquoi il a créé une structure
+    dédiée à l’accompagnement et à la formation.
         </p>
 
 
