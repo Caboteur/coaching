@@ -6,6 +6,16 @@ import rond from "../images/rond.svg";
 import profil from "../images/profil.jpg";
 
 function IndexPage() {
+
+  console.log('removing service worker')
+if (typeof window !== 'undefined') {
+  if ('serviceWorker' in window.navigator) {
+    window.navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    });
+  }
+}
+
   return (
     <Layout>
       <SEO
