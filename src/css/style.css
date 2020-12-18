@@ -11,6 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jost&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap');
 
 /* defines the animation */
 @keyframes fadeInUp {
@@ -144,7 +145,7 @@ padding: 1em;
 
 .titlePhrase{
   color: white;
-font-family: 'Roboto Slab', serif;
+  font-family: 'Poppins', sans-serif;
 font-size: 2em;
 padding: 2em;
 padding-top: 11%;
@@ -155,14 +156,25 @@ padding-top: 11%;
       color: #3e51b5;
       /* padding-top: 10px; */
       font-weight: 800;
-      font-size: 32px;
-      font-family: 'Jost', sans-serif;
+    font-size: 40px;
+      font-family: 'Poppins', sans-serif;
       margin: auto;
       padding: 1em;
       text-align: center;
 }
 
+#strongword{
+  padding: 0;
+    font-size: 25px;
+    color: #ffd9da;
+}
 
+#strongwordblue{
+  margin: 0;
+  padding: 0;
+    font-size: 25px;
+    color: #3e51b5;
+}
 
 .blockIntro{
     height: 33em;
@@ -255,7 +267,8 @@ margin: auto;
 }
 
 .blockPostIntro{
-  font-family: 'Jost', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
       color: #16297a;
       margin: auto;
       text-align: left;
@@ -690,7 +703,7 @@ padding: 0.3em;
 @media screen and (max-width: 970px) {
 
   .newEvent{
-    margin-bottom: 1em;
+  margin-bottom: 0;
   }
 
   .blockIntro{
@@ -815,8 +828,8 @@ text-align: center;
 
 
 .TitleEvent{
-  margin-left: 2em;
-    margin-right: 2em;
+  margin-left: 0.2em;
+      margin-right: 0.2em;
 }
 
 .containerSlide div p {
@@ -826,6 +839,7 @@ text-align: center;
 
 #newEvent {
   width: 100%;
+  margin-bottom: 0;
 }
 
 

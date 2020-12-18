@@ -12,7 +12,7 @@ function AboutPage() {
     <Layout>
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="About"
+        title="A propos"
       />
       <div className="blockProfil flex flex-wrap">
         <div className="w-full sm:w-1/1 md:w-1/2 lg:w-1/2">

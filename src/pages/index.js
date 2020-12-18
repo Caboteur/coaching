@@ -10,7 +10,7 @@ function IndexPage() {
     <Layout>
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Home"
+        title="Accueil"
         />
 
       <section className="text-center">
@@ -29,7 +29,6 @@ function IndexPage() {
 
 
           <h1>FAITES ÉMERGER VOTRE POTENTIEL</h1>
-
 
 
           <p  style={{textAlign: "left"}}>Envie d’évolution ? <br />

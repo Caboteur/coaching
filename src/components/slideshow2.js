@@ -1,6 +1,7 @@
 import React from 'react';
 import 'react-awesome-slider/dist/styles.css';
 import people from "../images/people.jpg";
+import carr from "../images/ateliercarriere.jpeg";
 import PropTypes from "prop-types";
 
 
@@ -16,6 +17,8 @@ export default class Slideshow2 extends React.Component {
   Vous êtes en transition professionnelle, vous avez des difficultés de management, vous avez peur du changement, vous avez des doutes sur votre positionnement, vous souhaitez une aide pour vous présenter à des recruteurs ?
   Vous éprouvez des difficultés dans votre équilibre vie privée, vie professionnelle ? Vous avez l’impression de ne pas avoir le temps ?
       </p>
+
+      <img id="imgStatic" style={{filter: "grayscale(0.4)"}} src={carr} />
 
 
       <div className="paraP2">

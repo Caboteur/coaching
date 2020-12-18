@@ -9,7 +9,7 @@ function EnSavoirPlus() {
     <Layout>
     <SEO
     keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-    title="Home"
+    title="En savoir plus"
     />
 
     <section className="text-center">

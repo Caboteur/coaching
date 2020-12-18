@@ -16,6 +16,7 @@ export default function Event() {
     }
     `}
     render={(data) => (
+
       <Events lieu={data.contentfulNouveauCafeClown.lieu} tarif={data.contentfulNouveauCafeClown.tarif} date={data.contentfulNouveauCafeClown.date} />
     )}
   />
