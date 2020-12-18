@@ -17,6 +17,8 @@ module.exports = {
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
      `gatsby-plugin-sass`,
+     `gatsby-plugin-remove-serviceworker`,
+
 
     {
       resolve: `gatsby-plugin-manifest`,
@@ -50,6 +52,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-remove-serviceworker`,
+    `gatsby-plugin-offline`,
   ],
 };
