@@ -9,6 +9,7 @@
     "gatsby-plugin-manifest": "2.4.34",
     "gatsby-plugin-postcss": "2.3.13",
     "gatsby-plugin-react-helmet": "3.3.13",
+    "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-plugin-sass": "^2.6.0",
     "gatsby-plugin-sharp": "2.6.39",
     "gatsby-source-contentful": "^4.2.1",
