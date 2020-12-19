@@ -48,7 +48,7 @@ Venez nous retrouver <p id="strongwordblue">c’est aussi simple que de prendre 
 
 <div className="paraP2">
 <p>
-Lors de l’atelier « Café clown » chacun est amené, en toute bienveillance, à <p id="strongwordblue">découvrir son clown</p> et à s’aligner avec son identité profonde.<br />« Découvrir son clown » : sans doute cela vous interpelle-t-il ?
+Lors de l’atelier « Café clown » chacun est amené, en toute bienveillance, à <p style={{display:"inline-block"}} id="strongwordblue">découvrir son clown</p> et à s’aligner avec son identité profonde.<br />« Découvrir son clown » : sans doute cela vous interpelle-t-il ?
 C’est en se cachant derrière un nez de clown que vous serez amené à prendre conscience de votre identité, à expérimenter la sincérité de l’instant présent, à exprimer vos émotions sans masque, et petit à petit, à votre rythme, à adopter des postures alignées avec vos valeurs, qui vous permettent de déployer le meilleur de vous-même.
 </p>
 </div>

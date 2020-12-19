@@ -24,7 +24,7 @@ function Prestation() {
     <p>
     <ul>
     <li><p id="strongword"> Coaching individuel </p> Efficacité personnelle, préparation d’entretien professionnel, prise de poste, changement de poste, accompagnement au changement, intervention en situation complexe et de reconstruction.</li>
-    <li><p id="strongword"> Coaching d’équipe</p>  Accompagnement à l’action : construire son équipe, développer le potentiel collaboratif d’une équipe, efficacité du groupe : ateliers de co-développement, en présentiel et en distanciel, amélioration des performances globales de l’organisation.</li>
+    <li><br /><p id="strongword"> Coaching d’équipe</p>  Accompagnement à l’action : construire son équipe, développer le potentiel collaboratif d’une équipe, efficacité du groupe : ateliers de co-développement, en présentiel et en distanciel, amélioration des performances globales de l’organisation.</li>
     <li><br/><p id="strongword" style={{textAlign: "center",color: "#ffffff"}}>Ateliers:</p><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <p id="strongword">Café Clown</p>
