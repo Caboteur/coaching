@@ -130,6 +130,7 @@ padding: 1em;
   margin-left: 20px;
   margin-left: 15px;
     margin-right: 15px;
+
 }
 
 .Title{
@@ -404,7 +405,7 @@ margin: auto;
   .aboutP{
     color: #3f50b5;
         margin: auto;
-        padding: 17%;
+        padding: 25%;
         text-align: left;
         font-weight: 800;
         font-size: 20px;
@@ -564,6 +565,16 @@ color:#ffd9da;
   font-weight: 800;
   font-size: 30px;
   padding: 1em;
+}
+
+.deonto{
+  font-family: 'Jost', sans-serif;
+color:#3e51b5;
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  padding: 1em;
+      padding-top: 2em;
 }
 
 .fa-instagram{
