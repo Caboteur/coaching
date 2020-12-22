@@ -1,4 +1,4 @@
-/*! purgecss start ignore */
+
 @tailwind base;
 @tailwind components;
 /*! purgecss end ignore */
@@ -130,6 +130,7 @@ padding: 1em;
   margin-left: 20px;
   margin-left: 15px;
     margin-right: 15px;
+    margin-top: 4em;
 
 }
 
@@ -373,6 +374,18 @@ outline: none;
   height: auto;
   background: white;
   border-bottom: 1px solid #14297a;
+  position: fixed;
+z-index: 20;
+right: 0;
+left: 0;
+margin-left: 15px;
+margin-right: 15px;
+}
+
+.footer{
+  height: 4em;
+margin-top: 2em;
+border-top: 1px solid #14297a;
 }
 
 .present{

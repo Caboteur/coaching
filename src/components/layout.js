@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import Header from "./header.js";
-
+import Footer from "./footer.js";
 
 function Layout({ children }) {
 
@@ -14,6 +14,8 @@ function Layout({ children }) {
       <main className="Main">
         {children}
       </main>
+
+      <Footer />
 
     </div>
   );
