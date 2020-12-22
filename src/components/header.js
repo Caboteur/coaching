@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import Hamburger from 'hamburger-react'
+import logo from "../images/logo.svg";
 
 
 class Header extends React.Component {
@@ -37,7 +38,7 @@ openMenu(){
 
       <div className="Title">
       <Link to="/">
-          Cabinet BL Conseil
+          <img src={logo} />
       </Link>
     </div>
           <div className="menuDesktop">
