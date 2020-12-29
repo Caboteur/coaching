@@ -1,4 +1,5 @@
 import React from "react";
+import linkedin from "../images/linkedin.svg";
 
 function Footer() {
 
@@ -6,7 +7,7 @@ function Footer() {
 
   return (
     <div className="footer">
-
+     <img src={linkedin} />
     </div>
   );
 }

@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 import rond from "../images/rond.svg";
 import profil from "../images/profil.jpg";
 
+
 function IndexPage() {
 
   console.log('removing service worker')
@@ -48,7 +49,7 @@ if (typeof window !== 'undefined') {
           <p >Dans une époque où nous devons nous appuyer sur nos propres ressources pour évoluer, pour s’adapter pour enrichir nos connaissances et faire face aux évènements qui jalonnent notre vie professionnelle et personnelle, avec bienveillance je vous fais prendre conscience de ce qui vous freine, je vous amène à développer votre potentiel et votre confiance en vous.
             Ainsi vous serez amené à préciser le projet professionnel qui a du sens pour vous, qui est en harmonie avec vos valeurs afin d’exercer votre métier de façon épanouissante.
           </p>
-          <img className="backprofil" src={profil} />
+            <Link to="/about"><img className="backprofil" src={profil} />  </Link>
 
         </div>
 

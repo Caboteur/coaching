@@ -14,6 +14,7 @@ class Header extends React.Component {
   display:"none",
   isOpen:false,
   setOpen:false,
+  height:"0vh"
   };
 }
 
@@ -80,19 +81,13 @@ openMenu(){
 
 
           </div>
-          <div className="mobilee">
+          <div className="mobilee" style={{height:this.state.height}}>
           <div className="mobile-menu" style={{width:this.state.large, display:this.state.display}}>
             <Link to="/nosprestations">
               <div className="onglet">
 
                  Nos prestations
                </div>
-
-            </Link>
-            <Link to="/ensavoirplus">
-              <div className="onglet">
-                En savoir plus
-              </div>
 
             </Link>
             <Link to="/ensavoirplus">
@@ -118,22 +113,21 @@ openMenu(){
                 </div>
             </Link>
 
-
-
-
-
-
           </div>
 
           <Hamburger  onToggle={toggled => {
               if (toggled) {    this.setState({large:"100%"});
               this.setState({open:true});
               this.setState({display:"inherit"});
+              this.setState({height:"100vh"});
+              document.body.style.overflow = 'hidden'
 
 
             } else {    this.setState({large:"0%"});
+            this.setState({height:"0vh"});
             this.setState({open:false});
             this.setState({display:"none"});
+            document.body.style.overflow = 'auto' 
 
           }
         }} toggle={this.state.setOpen} />
