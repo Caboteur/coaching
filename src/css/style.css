@@ -249,6 +249,10 @@ padding-top: 11%;
   margin-bottom: 2.5em;
 }
 
+.awssld__bullets{
+  bottom: 0!important;
+}
+
 .paraP1 p{
   padding: 2em;
   color: white;
@@ -660,8 +664,8 @@ padding-bottom: 4em!important;
 .awssld__content > img, .awssld__content > video{
     -o-object-fit: cover;
     object-fit: cover;
-    width: 310px !important;
-    height: 100%;
+    width: 261px!important;
+    height: 85%;
     position: absolute;
     top: 0;
     left: 0;
