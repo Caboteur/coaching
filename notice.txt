@@ -66,6 +66,7 @@ juste mettre emcc dans deontologie
 -photo acceuil link contact
 
 -mettre au meme niveau Ateliers nos prestations
+
 -changer coaching pro pour qu'est ce qu'un coach professionel
 
 -Lors d'un coahcing vous allez mettre avant mettre en oeuvre

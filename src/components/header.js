@@ -18,17 +18,19 @@ class Header extends React.Component {
   };
 }
 
+componentDidMount(){
+    document.body.style.overflow = 'auto';
+}
+
 openMenu(){
     if (this.state.open === true){
      this.setState({large:"0%"});
      this.setState({open:false});
      this.setState({display:"none"});
-     console.log("ok");
    }else{
      this.setState({large:"100%"});
      this.setState({open:true});
      this.setState({display:"inherit"});
-     console.log("pasok");
    }
 }
 
@@ -116,7 +118,7 @@ openMenu(){
           </div>
 
           <Hamburger  onToggle={toggled => {
-              if (toggled) {    this.setState({large:"100%"});
+              if (toggled) {    this.setState({large:"110%"});
               this.setState({open:true});
               this.setState({display:"inherit"});
               this.setState({height:"100vh"});
@@ -127,7 +129,7 @@ openMenu(){
             this.setState({height:"0vh"});
             this.setState({open:false});
             this.setState({display:"none"});
-            document.body.style.overflow = 'auto' 
+            document.body.style.overflow = 'auto'
 
           }
         }} toggle={this.state.setOpen} />

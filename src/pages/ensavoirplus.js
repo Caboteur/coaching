@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
-import coachingEquipe from "../images/coachingEquipe.jpeg";
-import coachingPerso from "../images/coachingPerso.jpeg";
+import coachingEquipe from "../images/coachingEquipe2.jpg";
+import coachingPerso from "../images/coachingPerso2.jpeg";
 import SEO from "../components/seo";
 
 function EnSavoirPlus() {
@@ -24,38 +24,26 @@ function EnSavoirPlus() {
 
     <div className="paraP">
     <div className="separation"></div>
-    <h1>Coaching professionnel</h1>
-    <p>Le coach est un professionnel du changement qui sait en comprendre et en lever les freins.
-    Le coach vous accompagne mais c’est vous par l’expérimentation qui prendrez un nouveau chemin
-    Les caractéristiques d’un coach professionnel :
-    Une expérience professionnelle importante : un des rares métiers où la maturité est un atout !
-    Une bonne connaissance des organisations et des phénomènes d’interactions dans le monde du travail.
-    Une solide formation de coach professionnel certifiée.
-    Une éthique et une déontologie : le respect d’un code de déontologie, un accompagnement formalisé dans un contrat, avec une intervention dans la juste durée, et des règles de confidentialité pour la libre parole.</p>
+    <h1>Qu’est-ce qu’un coach professionnel ?</h1>
+    <p>C’est un professionnel du changement qui sait en comprendre et en lever les freins. Le coach vous accompagne mais c’est vous en expérimentant vous-même qui prendrez un nouveau chemin.
+Les caractéristiques d’un coach professionnel 
+Une solide expérience du monde de l’entreprise de son organisation et des relations humaines.
+Une formation de coach professionnel certifié. Une éthique et le respect d’un code de déontologie, un accompagnement formalisé dans un contrat, avec une intervention dans la juste durée, et des règles de confidentialité totale lors des séances de coaching.</p>
         </div>
 
         <div className="paraP2">
     <h1>Un coaching pourquoi ?  </h1>
-    <p>Salariés, managers, entrepreneurs : vous traversez une difficulté à un moment clé de votre parcours professionnel.
-Le coaching vous apporte un regard nouveau et des possibilités inédites sur une difficulté. Il s’agit d’un dispositif d’accompagnement qui vous permet de prendre conscience de vos freins, de révéler vos compétences et aptitudes utiles à votre développement en milieu professionnel.
-L’atteinte de l’objectif s’évalue par le degré d’autonomie acquis dans la situation objet du coaching.
+    <p>Salarié, manager, entrepreneur vous traversez une difficulté à un moment clé de votre parcours professionnel. Le coaching vous apporte un regard nouveau et des possibilités inédites. Il s’agit d’un dispositif d’accompagnement qui vous permet de prendre conscience de vos freins, de révéler vos compétences et aptitudes propices à votre développement personnel et professionnel.
+L’atteinte de l’objectif s’évalue par le degré d’autonomie autonomie acquis à la fin du parcours.
 <br />
-Lors d’un coaching vous allez,
+Lors d’un coaching,
 <br />
-<h3 style={{fontWeight:"600"}}>Acquérir :</h3>
+<h3 style={{fontWeight:"600"}}>Vous allez acquérir :</h3>
     Un nouveau regard sur les difficultés, une prise de conscience des obstacles.
     De nouveaux comportements et de nouveaux modes de fonctionnement.
     Une meilleure compréhension de vos émotions face aux diverses pressions et une meilleure façon de les gérer en les acceptant.
-<br/><h3 style={{fontWeight:"600"}}>Mettre en œuvre :</h3>
-Des actions que vous aurez décidées pour progresser vers l’atteinte de l’objectif défini.
-Des actions alignées avec votre identité et vos valeurs.
-
-    De nouveaux comportements et de nouveaux modes de fonctionnement.
-    Une meilleure gestion de leurs émotions face aux diverses pressions, aux challenges et autres missions vécues comme irréalisables.
-    Le décryptage des cercles vicieux qui “cristallisent” la situation dans un mode “problème”.
-    Une stratégie systémique pour agir vers l’objectif choisi.
-    Une cohérence entre leurs messages et leurs systèmes de valeurs.
-    Plus de confiance dans leurs choix, leurs décisions et leurs ressources personnelles.
+<br/><h3 style={{fontWeight:"600"}}>Vous allez mettre en œuvre :</h3>
+Des actions que vous aurez décidées pour progresser vers l’atteinte de l’objectif défini. Des actions alignées avec votre identité et vos valeurs. De nouveaux comportements et de nouveaux modes de fonctionnement. Une meilleure gestion de vos émotions face aux diverses pressions, aux challenges et autres missions vécues comme irréalisables. Le décryptage des cercles vicieux qui “cristallisent” la situation dans un mode “problème”. Une stratégie systémique pour agir vers l’objectif choisi.
     <br />
     Coacher, ce n’est pas faire à la place de l’autre !
     </p>
@@ -82,7 +70,7 @@ Des actions alignées avec votre identité et vos valeurs.
 
     <img id="imgS" src={coachingEquipe} />
 
-    <div className="paraP2">
+    <div className="paraP2" style={{marginBottom:"2em"}}>
     <h1>Coaching d’équipe et atelier de co-développement</h1>
     <p>
     Vous souhaitez mettre fin à des dysfonctionnements de communication au sein d’un groupe, améliorer les résultats de votre équipe, définir et établir des outils communs facilitant la communication et la productivité.

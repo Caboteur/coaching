@@ -37,7 +37,7 @@ function AboutPage() {
 
         <p className="aboutP">Bernard accompagne les personnes pour qu’elles trouvent du sens dans leur projet professionnel, il amène chaque stagiaire à développer sa confiance et son potentiel et à être aligné avec ses valeurs dans ce qu’il entreprend.
         </p>
-        <p className="aboutP">Ingénieur de formation et titulaire d’un MBA à l’IAE Paris Sorbonne Business School, Bernard a dirigé des programmes stratégiques dans des grands groupes industriels et de services, en ayant une approche systémique auprès des équipes c’est-à-dire en prenant en compte l’individu dans toute sa complexité reliant sa pensée ses émotions et son corps. L&#44;humain a toujours été au cœur de ses actions, sa passion c’est d’aider chacun à se réaliser, c’est pourquoi il a créé le cabinet BL Potentiel dédié à l’accompagnement et à la formation.
+        <p className="aboutP">Ingénieur de formation et titulaire d’un MBA à l’IAE Paris Sorbonne Business School, Bernard a dirigé des programmes stratégiques dans des grands groupes industriels et de services, en ayant une approche systémique auprès des équipes c’est-à-dire en prenant en compte l’individu dans toute sa globalité et sa complexité reliant sa pensée ses émotions et son corps. L&apos;humain a toujours été au cœur de ses actions, sa passion c’est d’aider chacun à se réaliser, c’est pourquoi il a créé le cabinet BL Potentiel dédié à l’accompagnement et à la formation.
         </p>
 
 

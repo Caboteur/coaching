@@ -21,7 +21,7 @@ export default class Slideshow extends React.Component {
 <h2 style={{fontWeight:"600"}}>Atelier « Café clown »</h2>
 <br />
 Venez nous retrouver et participer à l’atelier Café Clown, où chacun peut exprimer ses émotions, trouver son clown et sa posture de vie en étant aligné sur ses valeurs en développant sa résilience et son intégrité.
-Venez nous retrouver <p id="strongwordblue">c’est aussi simple que de prendre un café!</p>Le café c’est aussi le lieu où chacun écoute l’autre sans jugement et s’exprime à son tour en s’enrichissant du partage.<br />Objectif de l’atelier :<br />
+Venez nous retrouver !<p id="strongwordblue">C’est aussi simple que de prendre un café!</p>Le café c’est aussi le lieu où chacun écoute l’autre sans jugement et s’exprime à son tour en s’enrichissant du partage.<br />Objectif de l’atelier :<br />
 •Acquérir une nouvelle posture et les premières idées d’actions concrètes à mettre en œuvre.
 <br />
 •Porter un nouveau regard sur les difficultés, acquérir de nouveaux comportements.
@@ -32,14 +32,14 @@ Venez nous retrouver <p id="strongwordblue">c’est aussi simple que de prendre 
 
 
 
-  {this.props.tarif === 0 && this.props.tarif === 0 && this.props.tarif === 0
+  {this.props.tarif === 0 && this.props.date === 0 && this.props.tarif === 0
           ? <div></div>
           :
-          <div id="newEvent"><h2>Nouvel évenement café clown!</h2>
+          <div id="newEvent"><h2>Nouvel évènement café clown!</h2>
 
-
+                    <div>{this.props.date}</div>
           <div><a href={`http://maps.google.com/maps?q=${this.props.lieu}`}>{this.props.lieu}</a></div>
-          <div>{this.props.date}</div>
+            <iframe id="iframe" width="100%" height="600"  src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBLUfDguq9ImNVwADrrkh3BmSBn2lCHBt0&q=${this.props.lieu}`}></iframe>
           <div>{this.props.tarif}€</div>
 
           </div>

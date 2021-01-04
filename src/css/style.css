@@ -71,7 +71,7 @@ margin-right: 8em;
       height: 100vh;
       background:white;
       z-index: 10;
-      right: 0;
+      right: -16px;
       display: inherit;
       height: 93%;
     bottom: 0;
@@ -152,6 +152,14 @@ padding: 1em;
     padding: 0.4em;
 }
 
+
+#iframe{
+  width: 80%;
+    margin: auto;
+    height: 28em;
+    padding: 1em;
+}
+
 .titlePhrase{
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -213,7 +221,7 @@ padding-top: 11%;
 
 .blockPrestIntro h1{
   position: relative;
-  color:#f15a79;
+  color:#cb1F08;
   padding-top: 10px;
   font-weight: 800;
     font-size: 32px;
@@ -236,6 +244,9 @@ padding-top: 11%;
 
 .paraP1 h1{
   color: #3f50b5;
+}
+.awssld__bullets{
+  margin-bottom: 2.5em;
 }
 
 .paraP1 p{
@@ -351,7 +362,7 @@ background-size: cover;
       margin: auto;
       text-align: left;
       font-weight: 800;
-      font-size: 20px;
+      font-size: 18px;
         background: #3e51b5;
 }
 
@@ -391,14 +402,14 @@ margin-right: 15px;
 
 .footer{
   height: auto;
-margin-top: 2em;
+
 background: #4051b5;
 }
 
 .footer img{
   width: 2em;
     float: right;
-        margin: 0.8em;
+      margin: 0.5em;
         cursor: pointer;
 }
 
@@ -496,10 +507,8 @@ height: 100%;
 
 .contact__wrap{
   text-align: center;
-  padding-bottom: 50px;
-  transform: translateY(10%);
   background: #3e51b5;
-    margin-top: -47px;
+  margin-top: 15px;
       margin-bottom: 15px;
           height: 86vh;
 }
@@ -777,6 +786,15 @@ height: 10em;
 }
 
 @media screen and (max-width: 767px) {
+
+  #iframe{
+    width: 100%;
+    height: 25em;
+  }
+
+
+
+
   .awssld__wrapper{
     width: 100% !important;
       margin: auto !important;
