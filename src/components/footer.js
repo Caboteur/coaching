@@ -8,6 +8,7 @@ function Footer() {
 
   return (
     <div className="footer">
+      <p>Copyright © 2021</p>
      <img style={{padding:"0.2em"}} src={fb} />
      <img src={linkedin} />
     </div>
