@@ -1,4 +1,5 @@
 import React from "react";
+import { Link} from "gatsby";
 import Slideshow from "./slideshow.js";
 import Slideshow2 from "./slideshow2.js";
 import Layout from "./layout";
@@ -49,6 +50,9 @@ btn2(){
 
               <Slideshow lieu={this.props.lieu} date={this.props.date}  tarif={this.props.tarif} eta={this.state.display1}/>
         <Slideshow2 eta={this.state.display2}/>
+
+          <button className="follow"><Link to="/about">À propos</Link></button>
+
 
 
     </Layout>

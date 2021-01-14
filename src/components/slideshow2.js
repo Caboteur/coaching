@@ -1,6 +1,6 @@
 import React from 'react';
 import 'react-awesome-slider/dist/styles.css';
-import people from "../images/people.jpg";
+import people from "../images/people2.jpg";
 import carr from "../images/ateliercarriere.jpeg";
 import PropTypes from "prop-types";
 

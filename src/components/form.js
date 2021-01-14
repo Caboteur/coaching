@@ -30,7 +30,7 @@ class Form extends React.Component {
 
           <input type="email" name="email" placeholder="Email" />
           <textarea  type="text" name="message" placeholder="Message" className="mess" maxLength="550" required=""/>
-          {status === "SUCCESS" ? <p>Je vous en remercie de votre demande, je reviens très vite vous, à bientôt !</p> : <button className="sendbtn">Envoyer</button>}
+          {status === "SUCCESS" ? <p>Merci pour votre demande, je vous recontacte rapidement !</p> : <button className="sendbtn">Envoyer</button>}
           {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
       </div>

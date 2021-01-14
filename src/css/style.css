@@ -33,6 +33,10 @@ p {
   animation: fadeInUp 1s ease-in-out 0s forwards;
  }
 
+.awssld__container figure, .awssld__content, .awssld__box{
+  height: 99%;
+}
+
 #imgStatic{
 width: 15em;
 margin: auto;
@@ -664,8 +668,8 @@ padding-bottom: 4em!important;
 .awssld__content > img, .awssld__content > video{
     -o-object-fit: cover;
     object-fit: cover;
-    width: 261px!important;
-    height: 81%!important;
+    width: 240px!important;
+    height: 78%!important;
     position: absolute;
     top: 0;
     left: 0;

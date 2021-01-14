@@ -1,6 +1,5 @@
 import React from "react";
 import linkedin from "../images/linkedin.svg";
-import fb from "../images/fb.svg";
 
 function Footer() {
 
@@ -9,8 +8,7 @@ function Footer() {
   return (
     <div className="footer">
       <p>Copyright © 2021</p>
-     <img style={{padding:"0.2em"}} src={fb} />
-     <img src={linkedin} />
+     <a href="https://www.linkedin.com/in/bernardlafage"><img src={linkedin} /></a>
     </div>
   );
 }

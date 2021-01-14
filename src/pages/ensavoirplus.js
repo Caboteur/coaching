@@ -1,4 +1,5 @@
 import React from "react";
+import { Link} from "gatsby";
 import Layout from "../components/layout";
 import coachingEquipe from "../images/coachingEquipe2.jpg";
 import coachingPerso from "../images/coachingPerso2.jpeg";
@@ -83,6 +84,9 @@ Des actions que vous aurez décidées pour progresser vers l’atteinte de l’o
 
 
     </div>
+
+    <button className="follow"><Link to="/event">Ateliers</Link></button>
+
 
     </section>
     </Layout>

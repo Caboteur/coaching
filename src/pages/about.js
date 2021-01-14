@@ -1,6 +1,6 @@
 import React from "react";
 import profilImg from "../images/profilImg.webp";
-import rncp from "../images/rncp.jpg";
+import rncp from "../images/rncp.png";
 import emcc from "../images/emcc.jpg";
 import infini from "../images/infini.jpg";
 import Layout from "../components/layout";
@@ -45,14 +45,14 @@ function AboutPage() {
 
       <p className="aboutP">Coach professionnel certifié, enregistré auprès du RNCP (Registre National des Certifications Professionnelles), praticien senior depuis 2019 Bernard est à ce titre coach ressource à l’Ecole Française de Coaching (groupe MHD-EFC) et membre de jury de certification de l’école et également formateur à l’IAE Paris Sorbonne Business School.</p>
 
-      <img className="imageIcon" src={rncp} style={{maxWidth:"10em"}}/>
+      <img className="imageIcon" src={rncp} style={{maxWidth:"10em", background: "#fff4f200"}}/>
      <p className="aboutP">Bernard est membre de l’association EMCC France et membre de l’équipe de l’organisation du colloque EMCC 2021.</p>
        <img className="imageIcon" src={infini} />
 
        </div>
 
        <h2 className="deonto">Déontologie</h2>
-       <img className="imageIcon" src={emcc} style={{maxWidth:"10em", paddingBottom: "2em"}}/>
+       <a href="https://www.emccfrance.org/deontologie-coach-mentors"><img className="imageIcon" src={emcc} style={{maxWidth:"10em", paddingBottom: "2em"}}/></a>
 
      </div>
 
