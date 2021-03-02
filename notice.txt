@@ -1,0 +1,9 @@
+Modifier le texte pour le rendez-vous café Clown
+1-Aller sur https://app.contentful.com/
+2-Entrer votre mail et mot de passe les memes que ovh
+3-Cliquer sur l'onglet content en haut si vous n'y etes pas déja
+4-Cliquer sur l'evenement Nouveau café Clown
+5- Modifier le lieu , la date et le prix attention vous etes obliger de remplir les trois.
+Si il n'y a pas d'évenements , remplissez chacun des trois champs par un 0 et l'encart disparaitra sur le site.
+Ue fois les modifications effectués appuyer sur publish changes , le bouton vert ur la droite.
+La modification n'est pas immédiate il faut compter 10 minutes environ.
