@@ -59,7 +59,6 @@ Des actions que vous aurez décidées pour progresser vers l’atteinte de l’o
     <h1>Coaching individuel</h1>
     <p>
     Un coaching individuel se déroule entre 3 et 10 séances d’1h30.
-      Un coaching individuel de 3 à 10 séances.
       Le coaching individuel peut être effectué au sein de l’entreprise, il est alors défini dans le cadre d’un contrat tripartite entre l’entreprise, le salarié coaché et le coach.
          Un entretien préliminaire permet à chacun de confirmer son envie de travailler avec l’autre, le coach présente les éléments nécessaires pour décider librement, le coaché expose sa problématique.<br/>
        Lors d’un entretien tripartite entre le coaché sa hiérarchie et le coach, les objectifs du coaching sont définis et le rôle de chacun est précisé.
