@@ -29,7 +29,7 @@ module.exports = {
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.teal["400"],
         display: `minimal-ui`,
-        icon: `src/images/logs.png`,
+        icon: `src/images/logo.svg`,
       },
     },
     {
@@ -37,7 +37,7 @@ module.exports = {
       options: {
         spaceId: `e9if77w3u1xe`,
         // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: "EQBzPAJIwyYnroZ4g46yOjrGT15D0O2qm3tftBX5Em4",
+        accessToken: "HWIMsL4k1hyXmeGP662dUCzw6_5G6v71f9ITu-QTc-U",
       },
     },
     {

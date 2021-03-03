@@ -77,7 +77,7 @@ margin-right: 8em;
       z-index: 10;
       right: -16px;
       display: inherit;
-      height: 87%;
+      height: 93%;
     bottom: 0;
 }
 
@@ -102,6 +102,7 @@ display: none;
 
 .hamburger-react{
   float: right;
+  transform: translateY(15%)!important;
 }
 .body{
   font-family: 'Poppins', sans-serif;
@@ -153,7 +154,7 @@ padding: 1em;
   font-weight: 800;
   font-size: 20px;
   height: 3.2em;
-    padding: 0.4em;
+  padding: 0.2em;
 }
 
 
@@ -265,7 +266,6 @@ padding-top: 11%;
 }
 
 .paraP h1{
-  float: left;
 }
 
 
@@ -864,7 +864,6 @@ padding: 0;
 }
 
 .Title{
-  font-size: 13px;
 
 }
 .paraP{

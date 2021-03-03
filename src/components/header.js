@@ -41,7 +41,7 @@ openMenu(){
 
       <div className="Title">
       <Link to="/">
-          <img src={logo} />
+          <img style={{height: "100%"}} src={logo} />
       </Link>
     </div>
           <div className="menuDesktop">
@@ -76,7 +76,7 @@ openMenu(){
           <Link to="/nosprestations">
             <div className="onglet">
 
-               Nos prestations
+               Nos accompagnements
              </div>
 
           </Link>
@@ -88,7 +88,7 @@ openMenu(){
             <Link to="/nosprestations">
               <div className="onglet">
 
-                 Nos prestations
+                 Nos accompagnements
                </div>
 
             </Link>

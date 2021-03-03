@@ -42,10 +42,10 @@ if (typeof window !== 'undefined') {
 
 
           <p  style={{textAlign: "left"}}>Envie d’évolution ? <br />
-            Vous êtes salarié, en transition professionnelle ou en recherche d’emploi, créateur d’entreprise, manager, ou adhérent aux organismes d’aide à l’emploi et à la réinsertion professionnelle, vous souhaitez évoluer? Je vous accompagne pour que vous trouviez du sens et de l’efficience dans votre parcours professionnel.</p>
+            Vous êtes salarié, en transition professionnelle ou en recherche d’emploi, créateur d’entreprise, manager, ou adhérent aux organismes d’aide à l’emploi et à la réinsertion professionnelle, vous souhaitez évoluer? <br/> <br/> Je vous accompagne pour que vous trouviez du sens et de l’efficience dans votre parcours professionnel.</p>
         <div className="containpara">
 
-          <p >Dans une époque où nous devons nous appuyer sur nos propres ressources pour évoluer, pour s’adapter pour enrichir nos connaissances et faire face aux évènements qui jalonnent notre vie professionnelle et personnelle, avec bienveillance je vous fais prendre conscience de ce qui vous freine, je vous amène à développer votre potentiel et votre confiance en vous.
+          <p >Dans une époque où nous devons nous appuyer sur nos propres ressources pour évoluer, pour s’adapter pour enrichir nos connaissances et faire face aux évènements qui jalonnent notre vie professionnelle et personnelle, avec conscience je vous fais prendre conscience de ce qui vous freine, je vous amène à développer votre potentiel et votre confiance en vous. <br/>
             Ainsi vous serez amené à préciser le projet professionnel qui a du sens pour vous, qui est en harmonie avec vos valeurs afin d’exercer votre métier de façon épanouissante.
           </p>
             <Link to="/about"><img className="backprofil" src={profil} />  </Link>

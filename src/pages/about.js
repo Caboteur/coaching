@@ -1,10 +1,10 @@
 import React from "react";
 import profilImg from "../images/profilImg.webp";
 import rncp from "../images/rncp.png";
-import emcc from "../images/emcc.jpg";
 import infini from "../images/infini.jpg";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import { Link} from "gatsby";
 
 function AboutPage() {
 
@@ -51,8 +51,9 @@ function AboutPage() {
 
        </div>
 
-       <h2 className="deonto">Déontologie</h2>
-       <a href="https://www.emccfrance.org/deontologie-coach-mentors"><img className="imageIcon" src={emcc} style={{maxWidth:"10em", paddingBottom: "2em"}}/></a>
+       <a href="https://www.emccfrance.org/deontologie-coach-mentors"><h2 className="deonto">Déontologie</h2></a>
+
+       <button className="follow"><Link to="/contact">Contact</Link></button>
 
      </div>
 
