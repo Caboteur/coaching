@@ -23,6 +23,8 @@ function SEO({ description, lang, meta, keywords, title }) {
       htmlAttributes={{
         lang,
       }}
+
+      <meta name="google-site-verification" content="S88T9SR8-TpQnktvkROH2mmeJY0ve1hhCRFAPFyqyaw" />
       meta={[
         {
           name: `description`,
