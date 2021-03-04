@@ -27,6 +27,11 @@ function SEO({ description, lang, meta, keywords, title }) {
 
       meta={[
         {
+           name:"google-site-verification",
+            content:"S88T9SR8-TpQnktvkROH2mmeJY0ve1hhCRFAPFyqyaw" 
+         },
+
+        {
           name: `description`,
           content: "Bernard Lafage, coach certifié RNCP, évolution professionnelle, accompagnement carrière, trouver du sens, développer son potentiel, confiance en soi, réussite.",
         },
