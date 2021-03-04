@@ -19,6 +19,7 @@ if (typeof window !== 'undefined') {
 
   return (
     <Layout>
+      <meta name="google-site-verification" content="S88T9SR8-TpQnktvkROH2mmeJY0ve1hhCRFAPFyqyaw" />
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Accueil"
