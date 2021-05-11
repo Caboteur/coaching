@@ -56,6 +56,11 @@ C’est en se cachant derrière un nez de clown que vous serez amené à prendre
 </div>
 </div>
 
+<p>
+Un atelier créé et animé par Bernard Lafage et Alain Bouthier.
+Organisé par le Théâtre du Dégel
+</p>
+
         <AwesomeSlider>
           <div data-src={img1}></div>
           <div data-src={img2}></div>
